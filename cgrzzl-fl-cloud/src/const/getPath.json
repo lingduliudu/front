@@ -1,0 +1,7 @@
+{
+    "Path" : [
+      {"path" : "/application/firstStep", "step": "10"},
+      {"path" : "/application/secondStep" , "step": "20"},
+      {"path" : "/application/thirdStep" , "step": "30"}
+    ]
+  }

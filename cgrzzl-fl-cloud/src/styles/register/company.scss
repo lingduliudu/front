@@ -1,0 +1,149 @@
+.register_main{
+  margin:  auto;
+  width: 1110px;
+  background: white;
+}
+.registerDemo{
+  // width: 70%!important;
+  margin: 0 auto;
+  .certificates{
+    display: flex;
+    flex-flow: row;
+    .certificates_item{
+      display: flex;
+      flex-flow: column;
+      margin: 0 10px;
+    }
+    
+  }
+  .fonts{
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: rgba(0,0,0,0.85);
+    line-height: 24px;
+  }
+  .first_step{
+    h2{
+      width: 100%;
+      height: 55px;
+      padding-left: 40px;
+      font-family: PingFangSC-Medium;
+      font-size: 16px;
+      color: rgba(0,0,0,0.85);
+      line-height: 55px;
+      border-bottom: 1px solid #E6E6E6;
+    }
+    .step_line{
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      margin-bottom: 32px;
+      .line{
+        width: 100%;
+        background-color:#E9E9E9;
+        height: 1px;
+      }
+    }
+    .title-f{
+      font-size:16px;
+      color:rgba(0,0,0,0.85);
+      font-family: PingFangSC-Medium;
+    }
+    .re_footer{
+      display: flex;
+      flex-flow: column;
+      text-align: center;
+      .reset_button{
+        cursor: pointer;
+        color: #FF4D60;
+      }
+    }
+  }
+  .title_name{
+    margin-bottom: 25px;
+    label{
+      color: #606266;
+      margin-left: 97px;
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      color: #262626;
+      text-align: right;
+      line-height: 22px;
+    }
+    span{
+      margin-left: 7px;
+    }
+  }
+  .avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    width:226px;
+    height:132px;
+  }
+  .avatar-uploader .el-upload:hover {
+    border-color: #FF4D60;
+  }
+  .avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    border: 1px solid #FF4D60;
+    width: 226px;
+    height: 132px;
+    line-height: 178px;
+    text-align: center;
+  }
+  .avatar {
+    width: 226px;
+    height: 132px;
+    display: block;
+  }
+}
+.upload__button{
+  position: relative;
+  .icon_delete{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 20;
+    bottom: 15px;
+    width: 178px;
+    height: 25px;
+    background-color: rgba(255,255,255,0.3);
+  }
+}
+
+
+// .el-upload--picture-card {
+//   display: none;
+// }
+.company1{
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
+// .required{
+//   .el-form-item__content{
+//     .imgClass {
+//       .el-upload--picture-card {
+//         // height:132px;
+//         // width:226px;
+//         display: none;
+//       }
+//     }
+//   }
+// }
+.m-top{
+  margin-top:20px;
+}
+
+
+//修改由于修改代码导致输入框的border消失的问题。
+  .companyOnlyStyle  .register_main .el-form .el-form-item .el-form-item__content .el-input .el-input__inner{
+      border-radius: 0;
+      border-bottom: 1px solid #DCDFE6 !important;
+  }

@@ -1,0 +1,15 @@
+<!--免责声明-->
+<template>
+  	<div>
+			<p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:微软雅黑; font-size:18pt; font-weight:bold">免责声明</span></p>
+			<p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:微软雅黑; font-size:12pt; font-weight:bold">一、“发起签约”页面免责声明</span></p>
+			<p style="margin:0pt; orphans:0; text-align:justify; text-indent:21pt; widows:0"><span style="font-family:微软雅黑; font-size:12pt; font-weight:bold">本平台不负责审核上传合同的真实性、准确性或完整性，因信息不真实、不准确或不完整而引起的任何问题及其后果，均由您自行承担。</span><span style="font-family:微软雅黑; font-size:12pt">本公司不对提交的信息，承担任何明示或者默示责任，不对任何后续服务承担任何明示或默示的连带责任或者保证责任。关于用户更多的权利与义务请在注册会员时仔细阅读《</span><span style="font-family:微软雅黑; font-size:12pt">东风金融-创格会员服务协议</span><span style="font-family:微软雅黑; font-size:12pt">》。</span></p>
+			<p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:微软雅黑; font-size:12pt; font-weight:bold">二、“实名认证</span><span style="font-family:微软雅黑; font-size:12pt; font-weight:bold">-申请签章”声明</span></p>
+			<p style="margin:0pt; orphans:0; text-align:justify; text-indent:21pt; widows:0"><span style="font-family:微软雅黑; font-size:12pt">声明：我方已经</span><span style="font-family:微软雅黑; font-size:12pt; font-weight:bold">认真阅读并同意接受</span><span style="font-family:微软雅黑; font-size:12pt">《CFCA数字证书服务协议》等(将以上文件公布在</span>
+				<a style="color:#000000" href="http://www.cfca.com.cn/" target="_blank"><span style="font-family:微软雅黑; font-size:12pt">http://www.cfca.com.cn</span></a><span style="font-family:微软雅黑; font-size:12pt">上)，同意协议内容构成我方与中金金融认证中心有限公司</span><span style="font-family:微软雅黑; font-size:12pt">(</span><span style="font-family:微软雅黑; font-size:12pt">以下</span><span style="font-family:微软雅黑; font-size:12pt">简称</span><span style="font-family:微软雅黑; font-size:12pt">“</span><span style="font-family:微软雅黑; font-size:12pt">CFCA</span><span style="font-family:微软雅黑; font-size:12pt">”</span><span style="font-family:微软雅黑; font-size:12pt">)之间的权利义务约定。</span></p>
+			<p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:微软雅黑; font-size:12pt; font-weight:bold">三、“上传资料”免责声明</span></p>
+			<p style="margin:0pt; orphans:0; text-align:justify; text-indent:21pt; widows:0"><span style="font-family:微软雅黑; font-size:12pt; font-weight:bold">本平台不负责审核会员在平台上传资料的真实性、准确性或完整性，因信息不真实、不准确或不完整而引起的任何问题及其后果，由您自行承担。</span><span style="font-family:微软雅黑; font-size:12pt">本平台不对提交的产品信息，承担任何明示或者默示责任，不对任何后续服务承担任何明示或默示的连带责任或者保证责任。关于用户更多的权利与义务请在注册会员时仔细阅读《</span><span style="font-family:微软雅黑; font-size:12pt">东风金融-创格会员服务协议</span><span style="font-family:微软雅黑; font-size:12pt">》。</span></p>
+			<p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:微软雅黑; font-size:12pt; font-weight:bold">四、“发票验真”免责声明</span></p>
+			<p style="margin:0pt; orphans:0; text-align:justify; text-indent:21pt; widows:0"><span style="font-family:微软雅黑; font-size:12pt; font-weight:normal">声明：本平台用户可以通过金蝶征信有限公司的提供的发票核验服务，</span><span style="font-family:微软雅黑; font-size:12pt; font-weight:bold">本平台不负责审信息的真实性、准确性或完整性，因信息不真实、不准确或不完整而引起的任何问题及其后果，由平台用户自行承担。</span></p>
+		</div>
+</template>

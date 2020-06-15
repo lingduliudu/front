@@ -1,0 +1,108 @@
+
+// 重置样式文件
+.el-button--primary {
+  color: #fff;
+  background-color: #FF4D60;
+  border-color: #FF4D60;
+  &:hover {
+    color: #fff;
+  background-color: #FF4D60;
+  border-color: #FF4D60;
+    // background-color: #FF4D60;
+  }
+  &:focus{
+    background-color:     #FF4D60;
+  border-color: #FF4D60;
+
+
+  }
+}
+.el-button--text {
+  // color: #FF4D60;
+  // &:hover {
+  //   color: #FF4D60;
+  // }
+}
+.el-tabs {
+  // margin-top: 32px;
+  &__nav-wrap {
+    &.is-top {
+      padding-left: 0 !important;
+      // background-color: #F1F1F1;
+      &::after {
+        height: 0;
+      }
+    }
+  }
+  &__active-bar {
+    height: 0 !important;
+  }
+  &__item {
+    color: #FF4D60;
+    background-color: #FFF;
+    border: 1px solid #A7C1F0;
+    padding: 0 24px;
+		border-bottom: none;
+    margin-right:4px;
+    &.is-top:nth-child(2) {
+      padding-left: 24px !important;
+    }
+    &.is-top:last-child {
+      padding-right: 24px !important;
+    }
+    &:hover {
+      color: #FF4D60;
+    }
+    &.is-active {
+      background: #FF4D60;
+			// background: #E6F0FF;
+			border-radius: 2px;
+			font-size: 14px;
+      color: #FFF;
+      &:hover {
+        color: #FFF;
+      }
+    }
+  }
+}
+// 合同折叠样式
+.collapse-active {
+  height: 129px;
+  overflow: hidden;
+}
+.htmsg1 {
+  padding: 24px 0;
+  margin: 0 24px;
+  height: 70px;
+  border-bottom: 1px solid #E6E6E6;
+}
+// .card-preview-btn {
+//   float: right;
+//   margin-top: 4px;
+// }
+// 底部固定样式
+.card-footer {
+  text-align: center;
+  border: 1px solid #D9D9D9;
+  height: 70px;
+  width: calc(100vw - 230px - 32px);
+  line-height: 70px;
+  position: fixed;
+  bottom: 0;
+  background-color: #FFF;
+  z-index: 2000;
+  .card-btn {
+    width: 160px;
+    height: 40px;
+  }
+}
+.card-footer.new{
+  width: calc(100vw - 230px - 44px);
+
+}
+.fa-plus-circle,.fa-minus-circle, .el-icon-download {
+  margin-right: 4px;
+  font-size: 16px;
+  display: inline;
+  color: #FF4D60;
+}

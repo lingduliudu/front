@@ -1,0 +1,62 @@
+@import "variable.less";
+@import "mixins.less";
+.data-filter{	
+	margin: 10px 0;
+	position: relative;
+	box-sizing: border-box;
+	position: relative;
+	.flexCtn();
+	// justify-conten:space-between;
+	.animated.duration_0_3s{
+		animation-duration:0.3s;
+	}
+	.el-select{
+		width:100%;
+	}
+	// .filter-list{
+	// 	overflow:hidden;
+	// 	width:970px;
+	// 	.flex(1);
+	// 	padding-right: 10px;
+	// 	&.showAll{
+	// 		height:auto;
+	// 	}
+	// }
+	.filter-item{
+		
+		float:left;
+		min-width: 160px;
+		width:22%;
+		margin-bottom: 12px;
+		margin-right: 24px;
+		label{
+			height:32px;
+			line-height: 32px;
+			display: block;
+			color: #595959;
+		}
+		.item-content{
+			margin-right: 10px;
+			width:100%;            
+		}
+		.range-width{
+			width:100%;
+		}
+	}
+	.btn-doFilter{
+		line-height: 32px;
+		height:32px;
+		padding-top: 0;
+		padding-bottom:0;
+		margin-top:34px;
+		width:125px;
+	}
+}
+.data-list{
+	.el-pagination{
+		float: right;
+		margin-right:24px;
+		margin-top:16px;
+		margin-bottom:32px;
+	}
+}

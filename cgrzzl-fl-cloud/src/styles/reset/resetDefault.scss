@@ -1,0 +1,109 @@
+  //重置组件默认样式
+  .el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active {
+      color: #fff;
+      background-color: #6F6F6F;
+      border-right-color: #ccc;
+      border-left-color: #ccc;
+  }
+  
+  .el-tabs--border-card>.el-tabs__header .el-tabs__item:hover {
+      color: #fff;
+      background-color: #333;
+  }
+  
+  .el-tabs--border-card>.el-tabs__header .el-tabs__item {
+      text-align: center;
+      height: 50px;
+      line-height: 50px;
+      list-style: none;
+      font-size: 22px;
+      color: #fff;
+      position: relative;
+      width: 100%;
+      background-color: #999;
+      border: 1px solid #ccc;
+      margin: 0;
+  }
+  
+  .el-tabs--border-card {
+      border: none;
+      box-shadow: none;
+  }
+  
+  .reset [class*=" el-icon-"],
+  [class^=el-icon-] {
+      font-family: element-icons!important;
+      speak: none;
+      font-style: normal;
+      font-weight: 400;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      vertical-align: baseline;
+      display: inline-block;
+      -webkit-font-smoothing: antialiased;
+      margin-left: 15px;
+      // color: #409eff;
+      // background-color: #409eff;
+  }
+  
+  .forms1_sty {
+      border: 1px solid #999;
+      padding: 20px;
+      padding-bottom: 0px;
+      box-shadow: #666 8px 15px 40px -4px;
+  }
+  
+  .el-input__inner {
+      border: 1px solid #d9d9d9;
+  }
+  
+  .model_sy {
+      font-size: 14px;
+      columns: #262626;
+      // font-weight: 600;
+  }
+  
+  .el-form-item__label {
+      margin-left: 10px;
+      width: 150px;
+  }
+  
+  .form-item {
+      width: 50%;
+      padding-top: 10px;
+      height: 50px;
+      background-color: #eaeaea;
+      .el-input__inner {
+          border: 1px solid #d9d9d9;
+          width: 210px;
+      }
+  }
+  
+  .fl {
+      float: left;
+  }
+  
+  .fr {
+      float: right;
+  }
+  
+  .search-btn {
+      width: 100%;
+      padding-top: 5px;
+      height: 50px;
+      background-color: #eaeaea;
+      .el-button--small {
+          width: 210px;
+          margin-left: 160px;
+      }
+  }
+  
+  .search-btn-right {
+      width: 210px;
+      // margin-left: 160px;
+  }
+  
+  .btn-width-lg {
+      width: 250px;
+  }
