@@ -11,7 +11,7 @@
     "@antv/data-set": "^0.10.2",
     "@riophae/vue-treeselect": "^0.4.0",
     "@smallwei/avue": "^2.3.4",
-    "axios": "^0.15.3",
+    "axios": "^0.19.2",
     "core-js": "^3.6.4",
     "cross-env": "^5.2.0",
     "echarts": "^3.8.5",
