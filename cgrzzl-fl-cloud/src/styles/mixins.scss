@@ -1,0 +1,45 @@
+@mixin  text-overflow(){
+	text-overflow:ellipsis;
+	overflow: hidden;
+}
+@mixin flexCtn(){
+	display: -webkit-box;
+	display: flex;
+	display: -moz-box;
+	display: -o-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+}
+@mixin flex($n:1){
+	flex:$n;
+	box-flex:$n;
+	-moz-box-flex:$n;
+	-webkit-box-flex:$n;
+	-webkit-flex:$n;
+    -ms-flex: $n;
+}
+@mixin flex-align($pos){
+    -ms-flex-align: $pos;
+    -webkit-align-items: $pos;
+    -webkit-box-align: $pos;
+	align-items: $pos;
+	align-conten: $pos;
+}
+
+@mixin flex-column(){
+	-webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+}
+@mixin  clearFix(){
+	&:after{
+		content:"";
+		display: block;
+		clear: both;
+	}
+}

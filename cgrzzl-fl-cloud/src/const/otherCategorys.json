@@ -1,0 +1,13 @@
+{
+    "Categorys": [
+        "taxTable",
+        "license",
+        "organizeTable",
+        "openAccountTable",
+        "legalFacade",
+        "legalReverse",
+        "agentFacade",
+        "agentReverse",
+        "entrustTable"
+    ]
+}

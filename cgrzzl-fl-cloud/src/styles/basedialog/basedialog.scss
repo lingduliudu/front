@@ -1,0 +1,42 @@
+.base-dialog {
+    .common-style {
+      margin: 10px;
+      // padding: 15px 30px;
+      // border: 1px dotted rgba(51, 51, 51, 0.5);
+      // border-radius: 5px;
+      .el-row {
+        margin: 18px -10px;
+        .el-col span:nth-of-type(1) {
+          font-weight: 700;
+        }
+      }
+      .el-form {
+        margin: 0 10px;
+        .el-form-item {
+          margin-bottom: 0;
+        }
+        .el-form-item__label {
+          text-align: left !important;
+          width: auto !important;
+          color: #333;
+        }
+        .el-select,
+        .el-autocomplete {
+          width: 100%;
+        }
+        textarea {
+          resize: none;
+          height: 150px;
+        }
+      }
+    }
+
+    .dialog-footer {
+      text-align: center;
+      .el-button {
+        width: 100px;
+        margin: 15px 30px;
+      }
+    }
+    
+  }

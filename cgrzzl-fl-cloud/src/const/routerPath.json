@@ -1,0 +1,15 @@
+{
+  "Path" : [
+    {"path" : "/register", "step": "0"},
+    {"path" : "/register/user" , "step": "1"},
+    {"path" : "/register/password" , "step": "2"},
+    {"path" : "/register/company" , "step": "3"},
+    {"path" : "/register/info" , "step": "6"},
+    {"path" : "/register/final" , "step": "7"},
+    {"path" : "/register/perfect" , "step": "4"},
+    {"path" : "/register/confirm" , "step": "5"},
+    {"path" : "/login" , "step": "0"},
+    {"path" : "/chainGenus/index" , "step": "0"},
+    {"path" : "/retrieve_password" , "step": "0"}
+  ]
+}

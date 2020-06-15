@@ -1,0 +1,38 @@
+.ly_container{
+  .l_title{
+   .l_t_title{
+    font-size: 16px;
+    color: #262626;
+    .l_t_remark{
+      font-size: 14px;
+      color: #000000;
+    }
+    .l_m_remark{
+      color:red;
+      font-size: 12px;
+    }
+  }
+}
+ .l_content{
+  padding-bottom: 48px;
+  .l_c_content{
+    padding: 0 33px;
+    .im_show{
+      width: 80%;
+      margin: 0 auto;
+      height: 300px;
+    }
+    img{
+      width: 100%;
+      height: 100%;
+    }
+    .im_title{
+      background-color: #FBFBFB;
+      font-size: 14px;
+      color: #262626;
+      text-align: center;
+      padding: 10px 0;
+    }
+  }
+}
+}

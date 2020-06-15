@@ -1,0 +1,114 @@
+@import 'vars.scss';
+@import 'mixins.scss';
+em {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+// font-size define start
+.font-s1 {
+    font-size: $font-size-s1;
+    line-height: 1;
+}
+
+.font-s2 {
+    font-size: $font-size-s2;
+    line-height: 1;
+}
+
+.font-s3 {
+    font-size: $font-size-s3;
+    line-height: 1;
+}
+
+.font-s4 {
+    font-size: $font-size-s4;
+    line-height: 1;
+}
+
+.font-s5 {
+    font-size: $font-size-s5;
+    line-height: 1;
+}
+
+.font-s6 {
+    font-size: $font-size-s6;
+    line-height: 1;
+}
+
+.font-s7 {
+    font-size: $font-size-s7;
+    line-height: 1;
+}
+
+.font-s8 {
+    font-size: $font-size-s8;
+    line-height: 1;
+}
+
+// font-size define end
+// 按钮大小定义 start
+.z-btn-large {}
+
+.z-btn-medium {
+    padding: 8px 30px !important;
+}
+
+.z-btn-small {}
+
+// 按钮大小定义 end
+//颜色定义 start
+.color-success {
+    color: $color-success !important;
+}
+
+.color-tip-gray {
+    color: $color-gray-tip-words !important;
+}
+
+.color-tip-red {
+    color: $color-red-tip-words !important;
+}
+
+.color-em-blue-gray {
+    color: $color-em-blue-gray;
+}
+
+//颜色定义 end
+.clearfix {
+    @include clearFix();
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.of-hidden {
+    overflow: hidden;
+}
+
+.hover-hand {
+    cursor: pointer;
+}
+
+.re-ul {
+    padding: 0;
+    margin: 0;
+}
+
+.s-text-btn {
+    font-size: 14px;
+    color: #008DFF;
+    cursor: pointer;
+}
+
+.turn {
+    cursor: pointer;
+}
